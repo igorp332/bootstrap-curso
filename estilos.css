@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
 body {
   --bege: #E6E0D6;
   --marrom-escuro: #816D4F;
@@ -55,4 +57,19 @@ input[type=checkbox]:focus {
 
 .input-range::-webkit-slider-thumb {
   background-color: var(--marrom-claro);
+}
+
+footer {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"] {
+  color: #ffffff;
+  .nav-link, .card, .offcanvas, .accordion {
+    --bs-nav-link-color: #ffff;
+    --bs-body-color: #ffff;
+    --bs-offcanvas-color: #ffff;
+    --bs-body-color:#ffff;
+  }
+
 }
